@@ -1,0 +1,4 @@
+"_comment": "windows",
+"prestart": "eslint **/*.js",
+"start": "node src/app.js",
+"dev": "nodemon --exec npm start",

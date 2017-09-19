@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "eslint **/*.js",
-    "start": "node src/app.js",
-    "dev": "nodemon --exec npm start",
+    "_comment": "linux",
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "lint": "./node_modules/eslint/bin/eslint.js **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
