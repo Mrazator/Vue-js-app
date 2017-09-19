@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "_comment": "linux",
-    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'sudo npm run lint && node'",
     "lint": "./node_modules/eslint/bin/eslint.js **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
